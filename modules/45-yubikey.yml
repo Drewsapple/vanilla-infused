@@ -1,0 +1,8 @@
+name: yubikey-packages # Install dependencies for yubikey auth
+type: apt
+source:
+  packages:
+  - fido2-tools
+  - pamu2fcfg
+  - libpam-u2f
+
